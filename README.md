@@ -26,10 +26,15 @@ docker run -d -p 4242:4242 -p 4141:4141 danirequena/mysandbox:1.5
 [+] Nos conectamos al contenedor mediante SSH con las credenciales (jorequen/password1)
 
 [+] Ejecutamos ./stockholm
-Los ficheros contenidos en el directorio /home/jorequen/infection con extensiones coincidentes a las extensiones de WannaCry se encriptan y se les añade la extension .ft
 
-[+] Para desencriptar los ficheros y dejarlos en su estado original ejecutamos ./stockhold -r aXde5Ffg6RdE4Jno
+Solo se encriptaran y se les añadirá la extension .ft a los ficheros contenidos en el directorio /home/jorequen/infection que tengan una extension que coincida con alguna de las extensiones que afectaba WannaCry
 
-[+] Las intrucciones ./stockholm -h 
+[+] Para desencriptar los ficheros y dejarlos en su estado original ejecutamos 
+
+./stockhold -r aXde5Ffg6RdE4Jno
+
+[+] Las intrucciones 
+
+./stockholm -h 
 
 
