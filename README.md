@@ -5,6 +5,18 @@ Es un programa en Python que encripta mediante AES (CBC MODE) los ficheros conte
 
 El tipo de fichero a encriptar coincide con los tipos que afecto en su momento WannaCry 
 
-Para probarlo se ha creado una imagen en hub.docker.com
+Para probarlo se ha creado una imagen en hub.docker.com  
 
-Aqui se adjunta el dockerfile por si no se quiere descargar
+docker pull danirequena/mysandbox:1.5
+
+La imagen contiene:
+
+[+] El ejecutable stockholm (one_file, no requiere de python)
+[+] Un usuario creado jorequen y contraseña password1
+[+] Dentro de home/jorequen hay un directorio /infection con diferentes ficheros víctima
+
+Se adjunta el dockerfile por si no se quiere descargar
+
+# uso
+
+Podemos conectarnos al servidor mediante SSH con las credenciales (jorequen/password1) y ejecutar ./stockholm
