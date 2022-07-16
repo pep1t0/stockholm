@@ -20,6 +20,7 @@ Se adjunta el dockerfile por si no se quiere descargar
 # uso
 
 [+] Lanzamos el contenedor usando la imagen descargada
+
 docker run -d -p 4242:4242 -p 4141:4141 danirequena/mysandbox:1.5
 
 [+] Nos conectamos al contenedor mediante SSH con las credenciales (jorequen/password1)
