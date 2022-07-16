@@ -12,7 +12,9 @@ docker pull danirequena/mysandbox:1.5
 La imagen contiene:
 
 [+] El ejecutable stockholm (one_file, no requiere de python)
+
 [+] Un usuario creado jorequen y contraseña password1
+
 [+] Dentro de home/jorequen hay un directorio /infection con diferentes ficheros víctima
 
 Se adjunta el dockerfile por si no se quiere descargar
