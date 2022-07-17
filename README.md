@@ -29,7 +29,7 @@ docker run -d -p 4242:4242 -p 4141:4141 danirequena/mysandbox:1.5
 
 [+] Ejecutamos ./stockholm
 
-Solo se encriptaran y se les añadirá la extension .ft a los ficheros contenidos en el directorio /home/jorequen/infection que tengan una extension que coincida con alguna de las extensiones que afectaba WannaCry
+Solo se encriptaran y se les añadirá la extension .ft a los ficheros contenidos en el directorio $HOME/infection y que tengan una extension que coincida con alguna de las extensiones que afectaba WannaCry
 
 [+] Para desencriptar los ficheros y dejarlos en su estado original ejecutamos 
 
