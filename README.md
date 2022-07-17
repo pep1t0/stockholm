@@ -5,7 +5,7 @@ Es un programa en Python que encripta mediante AES (CBC MODE) los ficheros conte
 
 Las extensiones de los ficheros que se encriptan coinciden con las extensiones que tenían los ficheros que en su momento fueron afectados por WannaCry 
 
-Para probarlo se ha creado una imagen que tiene como base Ubuntu y tiene instalados un servidor SSH y un servidor FTP (puertos 4242 y 4141 respectivamente). La imagen se encuentra en hub.docker.com
+Para probarlo se ha creado una imagen Docker que tiene como base Ubuntu y tiene instalados un servidor SSH y un servidor FTP (puertos 4242 y 4141 respectivamente). La imagen se encuentra en hub.docker.com
 
 docker pull danirequena/mysandbox:1.5
 
