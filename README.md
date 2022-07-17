@@ -3,7 +3,7 @@ Proyecto desarrollado durante el BootCamp de ciberseguridad que organizo 42 Barc
 
 Es un programa en Python que encripta mediante AES (CBC MODE) los ficheros contenidos en el directorio HOME/infection (en el caso de existir).
 
-El tipo de fichero a encriptar coincide con los tipos que afecto en su momento WannaCry 
+Las extensiones de los ficheros que se encriptan coinciden con las extensiones que tenían los ficheros que en su momento fueron afectados por WannaCry 
 
 Para probarlo se ha creado una imagen en hub.docker.com  
 
