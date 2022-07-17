@@ -19,7 +19,7 @@ La imagen contiene:
 
 Se adjunta el dockerfile por si no se quiere descargar
 
-# uso
+# Instrucciones de uso
 
 [+] Lanzamos el contenedor usando la imagen descargada
 
