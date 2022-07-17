@@ -1,22 +1,14 @@
 import pathlib
 import os
 import argparse
-# import signal
 
 from base64 import b64decode
 from base64 import b64encode
-# from os import remove
 
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
-# from matplotlib.pyplot import stem
 from sympy import true
-
-#def handler(signum, frame):
-#    res = input("Ctrl-c was pressed. Do you really want to exit? y/n ")
-#    if res == 'y':
-#        exit(1)
-    
+  
 # Path de directorio $HOME/infection. 
 working_dir = os.environ['HOME'] + '/infection'
 
@@ -155,9 +147,6 @@ def main():
         print(banner)
         print('The folder',working_dir,'does not exist')
      
-if __name__ == "__main__": 
-    
-    # signal.signal(signal.SIGINT, handler)
-    
+if __name__ == "__main__":
     main()
     
